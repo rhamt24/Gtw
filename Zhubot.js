@@ -58,7 +58,6 @@ class Zhubot extends TelegramBot {
 
         // Panggil setiap fitur terpisah di sini
         getGreeting(this, commands);
-        getTagAll(this, commands);
         getQuake(this, commands);
         // Panggil fitur lainnya juga
     }
