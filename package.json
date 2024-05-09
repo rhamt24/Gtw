@@ -1,0 +1,23 @@
+{
+  "name": "zhubot",
+  "version": "1.0.0",
+  "description": "zhubot is a learning bot",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "bot",
+    "zhubot",
+    "telegram"
+  ],
+  "author": "zals",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "dotenv": "^16.4.4",
+    "node-fetch": "^2.6.9",
+    "node-telegram-bot-api": "^0.64.0"
+  }
+}
