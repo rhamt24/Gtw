@@ -3,6 +3,7 @@ const commands = require("./libs/commands");
 const { helpTextMessage, invalidCommandMessage } = require("./libs/constant");
 const getGreeting = require("./app/getGreeting");
 const getQuake = require("./app/getQuake");
+const getTourl = rquire("./app/getTourl");
 
 class Zhubot extends TelegramBot {
     constructor(token, options) {
@@ -59,6 +60,7 @@ class Zhubot extends TelegramBot {
         // Panggil setiap fitur terpisah di sini
         getGreeting(this, commands);
         getQuake(this, commands);
+        getTourl(this, commands);
         // Panggil fitur lainnya juga
     }
 }
